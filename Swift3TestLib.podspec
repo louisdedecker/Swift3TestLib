@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '8.4'
 s.name = "Swift3TestLib"
 s.summary = "Swift3TestLib is a test"
 s.requires_arc = true
@@ -19,7 +19,7 @@ s.author = { "louis" => "louis@supertoaster.be" }
 
 s.homepage = "https://github.com/louisdedecker/Swift3TestLib"
 
-s.source = { :git => "https://github.com/louisdedecker/Swift3TestLib", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/louisdedecker/Swift3TestLib.git", :tag => "#{s.version}"}
 
 # 7
 s.framework = "UIKit"
