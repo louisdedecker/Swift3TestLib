@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   #
 
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   s.author             = { "Louis de Decker" => "louis@supertoaster.be" }
