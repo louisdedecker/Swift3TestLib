@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		840453EA1DCBD85800E1DB4F /* Swift3TestLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840453E01DCBD85800E1DB4F /* Swift3TestLib.framework */; };
 		840453EF1DCBD85800E1DB4F /* Swift3TestLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840453EE1DCBD85800E1DB4F /* Swift3TestLibTests.swift */; };
+		8448C4741DCBEFC900892B97 /* Int+TestLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448C4731DCBEFC900892B97 /* Int+TestLib.swift */; };
 		84B133FA1DCBD924006542DD /* String+TestLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B133F91DCBD924006542DD /* String+TestLib.swift */; };
 		84B133FC1DCBD9CC006542DD /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B133FB1DCBD9CC006542DD /* image.jpg */; };
 		DF4A471907B7F0F91F33BA53 /* Pods_Swift3TestLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144CE5D1051C40112D9E0E9A /* Pods_Swift3TestLib.framework */; };
@@ -31,6 +32,7 @@
 		840453E91DCBD85800E1DB4F /* Swift3TestLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift3TestLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840453EE1DCBD85800E1DB4F /* Swift3TestLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift3TestLibTests.swift; sourceTree = "<group>"; };
 		840453F01DCBD85800E1DB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8448C4731DCBEFC900892B97 /* Int+TestLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+TestLib.swift"; sourceTree = "<group>"; };
 		84B133F91DCBD924006542DD /* String+TestLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+TestLib.swift"; sourceTree = "<group>"; };
 		84B133FB1DCBD9CC006542DD /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 		8E232DABA236F5C2E144B10B /* Pods-Swift3TestLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift3TestLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift3TestLib/Pods-Swift3TestLib.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				84B133FB1DCBD9CC006542DD /* image.jpg */,
 				840453E41DCBD85800E1DB4F /* Info.plist */,
 				84B133F91DCBD924006542DD /* String+TestLib.swift */,
+				8448C4731DCBEFC900892B97 /* Int+TestLib.swift */,
 			);
 			path = Swift3TestLib;
 			sourceTree = "<group>";
@@ -234,7 +237,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7B1516813EEDADC6D9DABF17 /* [CP] Copy Pods Resources */ = {
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B133FA1DCBD924006542DD /* String+TestLib.swift in Sources */,
+				8448C4741DCBEFC900892B97 /* Int+TestLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
